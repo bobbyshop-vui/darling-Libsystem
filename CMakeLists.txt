@@ -22,6 +22,7 @@ set(libsystem_sources
 	init.c
 	darling/src/dummy.c
 	CompatibilityHacks.c
+	XcodeLazySymbols.c
 )
 
 set_source_files_properties(init.c PROPERTIES
